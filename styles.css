@@ -27,8 +27,20 @@ header nav ul li a {
     text-decoration: none;
 }
 
+.container {
+    display: flex;
+}
+
 main {
     padding: 1rem;
+    flex: 3;
+}
+
+aside {
+    padding: 1rem;
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+    flex: 1;
 }
 
 section {
@@ -62,6 +74,20 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+
+.ad {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 1px dashed #ccc;
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    border: none;
 }
 
 footer {
